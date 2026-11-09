@@ -13,7 +13,7 @@ jobs:
     runs-on: self-hosted   # Критерий 1: запуск на собственном runner'е
     defaults:
       run:
-        shell: bash
+        shell: C:\Progra~1\Git\bin\bash.exe -e {0}
 
     steps:
       - name: Checkout code
